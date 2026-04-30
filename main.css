@@ -1,0 +1,77 @@
+body{
+    background-image: url("aae148861e5d0c2cf4b0a49f665e25c0.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+/* aqui esta a secao do formulario onde deicamos transparente */
+form{
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(20px);
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #d1b79e25;
+    border: 1px solid rgba(244, 240, 240, 0.2);
+
+    /* aqui adidiconasmos transparencia */
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#name, #email{
+    width: auto;
+    height: auto;
+    padding:2px;
+    border: none;
+    border-radius:100px;}
+/* aqui esta sessao do botao */
+    button{
+    color: #fdfdfd;
+      padding: 12px; 
+      margin: AUTO;
+      width: 100%;
+      border:none;
+        border-radius: 25px;
+       background: linear-gradient(135deg, #ff7a00, #ff3d00);
+       cursor: pointer;
+       transition: 0.3s;
+    }
+    button:hover{
+        transform: scale(1.05);
+      
+    }
+    label{
+        color: #ff840083;
+        text-align: center;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    img{
+        width: 120px;
+        height: 120px;
+        margin: auto;
+        border-radius: 50%;
+    }
+/* aqui esta a secao dos inputs  aqui deixamos transparentes */
+input{
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 12px;
+
+
+    background: rgba(255, 255, 255, 0.2);
+    color: rgb(255, 255, 255);
+    outline: none;
+}
